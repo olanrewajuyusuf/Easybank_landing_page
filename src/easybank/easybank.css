@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+main {
+  width: 100%;
+  overflow: hidden;
+  background: hsl(0, 0%, 98%);
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  background: hsl(0, 0%, 100%);
+  z-index: 1;
+}
+header ul {
+  position: absolute;
+  top: 310%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 10px 0;
+  background: hsl(0, 0%, 98%);
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 100px -20px hsl(233, 26%, 24%, 0.9),
+    -100px -20px hsla(233, 26%, 24%, 0.9),
+    170px 100px 200px hsla(233, 26%, 24%, 0.9),
+    -166px 100px 200px hsla(233, 26%, 24%, 0.9);
+}
+header ul li {
+  list-style: none;
+  margin: 30px auto;
+  cursor: pointer;
+}
+header ul li a:hover {
+  border-bottom: 2px solid hsl(136, 65%, 51%);
+}
+header ul li a {
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+  font-weight: bold;
+}
+header .invite-btn {
+  display: none;
+}
+h1,
+h2,
+h3 {
+  color: hsl(233, 26%, 24%);
+}
+p,
+span {
+  color: hsl(233, 8%, 62%);
+}
+section,
+section div,
+section div img {
+  width: 100%;
+}
+section {
+  padding-bottom: 100px;
+}
+.home .mockup {
+  position: relative;
+  top: 17px;
+}
+.phones {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  margin: 0 auto;
+}
+.detail {
+  padding: 0 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+p {
+  margin-top: 15px;
+  line-height: 30px;
+}
+button {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(110deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  margin-top: 30px;
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(110deg, hsl(136, 72%, 69%), hsl(192, 84%, 66%));
+}
+.detailed {
+  background: hsl(220, 16%, 96%);
+  padding-top: 10px;
+}
+.detailed article {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+article div {
+  width: 100px;
+  margin-inline: auto;
+}
+.blogs {
+  padding: 100px 0 70px;
+  text-align: center;
+  padding: 100px 7%;
+  margin: 0;
+}
+.blog {
+  margin: 30px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  background: hsl(0, 0%, 100%);
+}
+.blog div {
+  width: 100%;
+}
+.blog div:nth-child(2) {
+  text-align: left;
+  padding: 20px 15px 50px 20px;
+}
+.blog div h3 {
+  font-size: 18px;
+}
+.blog div p,
+span {
+  font-size: 14px;
+}
+footer {
+  background: hsl(233, 26%, 24%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 30px;
+}
+.logo {
+  position: relative;
+}
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: bolder;
+  font-size: 23px;
+  position: absolute;
+  top: -5px;
+  left: 65px;
+}
+footer ul {
+  width: 100%;
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+  margin: 20px auto;
+  cursor: pointer;
+}
+footer .icon img {
+  margin: 30px 10px;
+  cursor: pointer;
+}
+@media (min-width: 850px) {
+  * {
+    font-size: 18px;
+  }
+  main {
+    max-width: 1440px;
+  }
+  header {
+    padding: 0px 11%;
+  }
+  header ul {
+    position: unset;
+    transform: unset;
+    width: unset;
+    padding: unset;
+    background: unset;
+    text-align: center;
+    border-radius: unset;
+    box-shadow: none;
+    z-index: unset;
+  }
+  header ul li {
+    display: inline-block;
+    padding: 35px 0 30px;
+    border-bottom: 3px solid transparent;
+    margin: 0 10px;
+  }
+  header ul li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+  }
+  header ul li a {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  header ul li a:hover {
+    border: unset;
+  }
+  header .burger {
+    display: none;
+  }
+  header .invite-btn {
+    display: block;
+    margin-top: 0;
+  }
+  main .home {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    gap: 20px;
+  }
+  main .home .detail {
+    text-align: left;
+  }
+  main .home .detail h1 {
+    margin-top: 150px;
+    padding: 0 20% 0 20%;
+    font-size: 50px;
+  }
+  main .home .detail p {
+    padding: 0 12% 0 20%;
+  }
+  main .home .detail button {
+    margin: 30px 20%;
+  }
+  main .home .background {
+    width: 80.5vw;
+    position: absolute;
+    top: -460px;
+    left: -13%;
+  }
+  .phones {
+    width: 53vw;
+    top: 100px;
+    left: 64%;
+  }
+  .detailed,
+  .blogs,
+  footer {
+    padding: 60px 10%;
+  }
+  .detailed .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    padding-bottom: 50px;
+  }
+  article {
+    text-align: left;
+    padding-left: 0;
+  }
+  .detailed .heading {
+    width: 59%;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .detailed h3 {
+    margin-top: 50px;
+    text-align: left;
+  }
+  article div {
+    margin: 0;
+  }
+  .services article p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .blogs {
+    text-align: left;
+    padding-top: 100px;
+  }
+  .bloggs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .blog div:nth-child(2) {
+    padding-bottom: 20px;
+  }
+  .blog div img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .blog div p,
+  span {
+    font-size: 15px;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+  .social,
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  .logo {
+    width: 400px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 30px;
+    top: -5px;
+    left: 65px;
+  }
+  .logo img {
+    width: 180px;
+  }
+  footer .icon img {
+    padding-top: 10px;
+    margin: 0px 5px;
+    width: 30px;
+  }
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+  }
+  footer .social ul li {
+    margin: 20px 0;
+  }
+}
+@media (min-width: 1000px) {
+  header ul li {
+    font-size: 14px;
+    margin: 0 15px;
+  }
+  header ul li a {
+    font-size: 16px;
+  }
+}
