@@ -40,5 +40,5 @@ The layout still need to be address.
 ## Author
 
 - Website - [Waliyyullah Olanrewaju Yusuf]
-- Frontend Mentor - [@olanrewajuyusuf]
-- Twitter - [@WaliyyullahY]
+- Frontend Mentor - [@olanrewajuyusuf](https://www.frontendmentor.io/profile/olanrewajuyusuf)
+- Twitter - [@WaliyyullahY](https://www.twitter.com/WaliyyullahY)
