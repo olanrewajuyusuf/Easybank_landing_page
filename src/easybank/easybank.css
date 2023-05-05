@@ -288,6 +288,7 @@ footer .icon img {
     text-align: left;
   }
   .detailed h3 {
+    font-size: 1.5rem;
     margin-top: 50px;
     text-align: left;
   }
@@ -295,7 +296,7 @@ footer .icon img {
     margin: 0;
   }
   .services article p {
-    font-size: 0.9rem;
+    font-size: 0.87rem;
     text-align: left;
   }
   .blogs {

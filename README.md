@@ -16,7 +16,7 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/olanrewajuyusuf/Easybank_landing_page)
+- Solution URL: [https://github.com/olanrewajuyusuf/Easybank_landing_page]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -35,8 +35,6 @@ Mobile first approach, then desktop react based project.
 ### Continued development
 
 The layout still need to be address.
-
-### Useful resources
 
 ## Author
 
