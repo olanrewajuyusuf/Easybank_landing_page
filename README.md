@@ -17,7 +17,8 @@ Users will be able to:
 ### Links
 
 - Solution URL: [https://github.com/olanrewajuyusuf/Easybank_landing_page]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [https://wallewdev-easybank-landingpage.netlify.app/]
 
 ## My process
 
@@ -38,6 +39,6 @@ The layout still need to be address.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Waliyyullah Olanrewaju Yusuf]
+- Frontend Mentor - [@olanrewajuyusuf]
+- Twitter - [@WaliyyullahY]
