@@ -43,19 +43,19 @@ function Header() {
       {menu && (
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="about">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="contact">Contact</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="blog">Blog</a>
           </li>
           <li>
-            <a href="#">Careers</a>
+            <a href="careers">Careers</a>
           </li>
         </ul>
       )}
